@@ -2,6 +2,7 @@
 import '../../styles/Testimonials.css';
 import {Quote} from 'lucide-react';
 import { FaStar } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa6";
 export default function Testimonials() {
   return (
 
@@ -105,13 +106,13 @@ export default function Testimonials() {
            Join the ranks of successful enterprises powered by HawkStack
          </p>
 
-         <button className="mt-6 px-8 py-3 rounded-xl font-medium 
-           bg-gradient-to-r from-[#FF4D4D] to-[#6A38FF] shadow-lg hover:opacity-90 transition">
-           Get Started with HawkStack →
+         <button className="mt-6 px-8 py-3 rounded-xl font-normal 
+           bg-gradient-to-r from-[#FF4D4D] to-[#6A38FF] shadow-lg hover:opacity-90 transition flex flex-row">
+           Get Started with HawkStack <FaArrowRight />
          </button>
        </div>
 
-       <p className="text-gray-500 text-sm mt-6">
+       <p className="text-gray-500 text-[12px] mt-6">
          Trusted by Fortune 500 companies worldwide
        </p>
   </div>
